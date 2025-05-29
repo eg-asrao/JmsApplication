@@ -30,9 +30,9 @@ src
     │   ├── dto                        # Data Transfer Objects
     │   ├── listener                   # JMS listeners (create, delete, DLQ)
     │   ├── producer                   # JMS message producer
-    │   └── JsmDemoApplication.java    # Main Spring Boot app
+    │   └── JmsApplication.java    # Main Spring Boot app
     └── test
-        └── java/org/example/jsmdemo  # Unit tests
+        └── java/org/example/jmsapplication/JmsApplicationTests  # Unit tests
 ```
 
 ---
