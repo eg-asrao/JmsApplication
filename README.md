@@ -7,18 +7,18 @@ This project demonstrates a simple group creation and deletion messaging system 
 
 ## 📌 Features
 
-- 📤 Group creation & deletion via REST API
-- 📥 JMS-based message sending using `JmsTemplate`
-- 📬 Listeners for `CREATE` and `DELETE` operations using JMS selectors
-- 🧪 Unit tests with **Mockito** and **Spring Boot Test**
-- 🧾 JavaDoc comments for core components
-- ☠️ Dead Letter Queue (DLQ) handling
-- ⚙️ Configurable concurrency for listeners
-- 🕒 Timestamping messages with `LocalDateTime`
+-  Group creation & deletion via REST API
+-  JMS-based message sending using `JmsTemplate`
+-  Listeners for `CREATE` and `DELETE` operations using JMS selectors
+-  Unit tests with **Mockito** and **Spring Boot Test**
+-  JavaDoc comments for core components
+-  Dead Letter Queue (DLQ) handling
+-  Configurable concurrency for listeners
+-  Timestamping messages with `LocalDateTime`
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 src
@@ -36,7 +36,7 @@ src
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Java 17+
@@ -56,7 +56,7 @@ mvn test
 ```
 
 ---
-## 📚 Documentation
+##  Documentation
 
 JavaDoc comments have been added to:
 
@@ -70,7 +70,7 @@ Use the IDE feature or Maven plugin to generate docs if needed.
 
 ---
 
-## 📤 Sample API Usage
+##  Sample API Usage
 
 ### Create Group
 ```bash
@@ -84,6 +84,6 @@ curl -X DELETE "http://localhost:8080/groups/delete?groupId=G1&parentGroupId=Roo
 
 ---
 
-## ✅ License
+##  License
 
 This project is for demonstration purpose.
