@@ -22,7 +22,7 @@ class JmsApplicationTests {
     private final GroupController controller = new GroupController(producer);
 
     @Test
-    void createGroup_sendsCreateMessage() {
+    void createGroupSendsCreateMessage() {
         String groupId = "G001";
         String parentGroupId = "P001";
 
@@ -43,7 +43,7 @@ class JmsApplicationTests {
     }
 
     @Test
-    void deleteGroup_sendsDeleteMessage() {
+    void deleteGroupSendsDeleteMessage() {
         String groupId = "G002";
         String parentGroupId = "P002";
 
